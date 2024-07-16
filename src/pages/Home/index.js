@@ -99,7 +99,10 @@ const Home = () => {
                 <div className="flex flex-col sm:flex-row gap-5 sm:gap-20">
                   <div className="flex flex-col">
                     <span className="font-semibold text-[#373737] hover:text-[#AC2982]">Periode job</span>
-                    <input className="p-2 w-full sm:w-[15rem] h-10 border-[#a1a1a1] border-[1px] rounded hover:border-[#AC2982]" type="text" name="job-period" id="job-period" />
+                    <span className="font-semibold text-[#373737] hover:text-[#AC2982]">From</span>
+                    <input className="p-2 mb-10 sm:mb-2 w-full sm:w-[15rem] h-10 border-[#a1a1a1] border-[1px] rounded hover:border-[#AC2982]" type="date" name="job-period" id="job-period" />
+                    <span className="font-semibold text-[#373737] hover:text-[#AC2982]">To</span>
+                    <input className="p-2 w-full sm:w-[15rem] h-10 border-[#a1a1a1] border-[1px] rounded hover:border-[#AC2982]" type="date" name="job-period" id="job-period" />
                   </div>
                   <div className="flex flex-col">
                     <span className="font-semibold text-[#373737] hover:text-[#AC2982]">Total job</span>
