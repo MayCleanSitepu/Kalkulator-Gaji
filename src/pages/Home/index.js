@@ -86,7 +86,7 @@ const Home = () => {
           <div id="judul">
             <div className="flex flex-col gap-5 pt-10 justify-center items-center">
               <h1 className="text-4xl text-center font-bold text-[#373737]">Kalkulator gaji</h1>
-              <p className="px-4 sm:px-10 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis eaque alias minima neque rerum?</p>
+              <p className="px-4 sm:px-10 text-center">Kalkulator gaji digunakan untuk menghitung gaji karyawan berdasarkan project yang sudah dikerjakan</p>
             </div>
           </div>
           <div id="konten" className="flex flex-col sm:flex-row mt-10 sm:mt-20 gap-10 sm:gap-20">
